@@ -1,0 +1,42 @@
+{
+  "name": "@learnaihubc/learn-mysql",
+  "version": "1.0.0",
+  "description": "Codex skill for secure alias-based MySQL operations.",
+  "scripts": {
+    "test": "node test/mysql-ops.test.mjs && node --test test/install.test.mjs"
+  },
+  "bin": {
+    "learn-mysql": "bin/install.mjs"
+  },
+  "files": [
+    "README.md",
+    "README_CN.md",
+    "LICENSE",
+    "bin",
+    "skills/mysql-ops"
+  ],
+  "keywords": [
+    "codex",
+    "skill",
+    "mysql",
+    "database",
+    "sql",
+    "backup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnAIHubC/LearnMySQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LearnAIHubC/LearnMySQL/issues"
+  },
+  "homepage": "https://github.com/LearnAIHubC/LearnMySQL#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

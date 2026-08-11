@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+dist/
+coverage/
+*.tgz
+
+# Never commit local MySQL credentials or connection metadata.
+.mylogin.cnf
+config.local.json

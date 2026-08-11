@@ -1,0 +1,4 @@
+interface:
+  display_name: "MySQL Ops"
+  short_description: "Secure alias-based MySQL operations"
+  default_prompt: "Use $mysql-ops to inspect a MySQL database through a configured alias."
